@@ -13,7 +13,7 @@
     </head>
     <body>
         <br/><br/>
-        <form method="POST" action="">
+        <form method="POST" action="/exo/register">
             <fieldset> <legend>S'enregistrer</legend>
                 <div>
                     Nom:    <input type="text" name="nom"/><br/><br/>

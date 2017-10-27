@@ -1,7 +1,7 @@
 <%-- 
     Document   : login
     Created on : 26 oct. 2017, 15:57:21
-    Author     : HP Notebook
+    Author     : MysterCozay
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
@@ -13,9 +13,9 @@
     </head>
     <body>
         <br/><br/>
-        <form method="POST" action="">
+        <form method="POST" action="/exo/login">
             <!-- Message -->
-            <div> ${message!=null?message:""}</div>
+            <div> ${message!=null?message:"Remplissez"}</div>
             <fieldset> <legend>Formulaire</legend>
                 <div>
                     Login:   <input type="text" name="login"/><br/><br/>

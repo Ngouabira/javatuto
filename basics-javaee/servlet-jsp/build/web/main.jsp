@@ -13,5 +13,9 @@
     </head>
     <body>
         <h1>Affichage du profile de l'utilisateur</h1>
+        Nom:       ${nom}<br/>
+        Prenom: ${prenom}<br/>
+       Genre:      ${genre}<br/>
+        Mot de passe: ${mdp}
     </body>
 </html>
